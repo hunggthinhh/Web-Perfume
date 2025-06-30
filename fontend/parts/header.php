@@ -25,9 +25,9 @@
       <div class="header-nav">
         <nav>
           <ul>
-            <li><a href="">Đăng kí</a>|</li> 
+            <li><a href="/Web-Perfume/auth/dangki.php">Đăng kí</a>|</li> 
            
-            <li><a href="">Đăng nhập</a></li>
+            <li><a href="/Web-Perfume/auth/index.php">Đăng nhập</a></li>
           </ul>
         </nav>
       </div>
