@@ -11,7 +11,9 @@
     </div>
   </div>
   <div class="slider-arrow">
-    <i class="ri-arrow-right-s-line"></i>
     <i class="ri-arrow-left-s-line"></i>
+    <i class="ri-arrow-right-s-line"></i>
   </div>
+
+
 </section>

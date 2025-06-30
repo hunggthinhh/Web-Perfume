@@ -2,7 +2,7 @@
 $host = "localhost";
 $user = "root";
 $pass = ""; // đổi theo mật khẩu của bạn
-$dbname = "web_perfume";
+$dbname = "web_nuochoa";
 
 // Kết nối database
 $conn = new mysqli($host, $user, $pass, $dbname);

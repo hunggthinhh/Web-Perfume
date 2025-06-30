@@ -29,7 +29,7 @@
       <li>
         <a href="#"><i class="ri-file-list-line"></i> Trang sản phẩm <i class="ri-add-box-fill"></i></a>
         <ul class="sub-menu">
-          <li><a href="/web/fontend/home.php"><i class="ri-arrow-right-s-fill"></i> Quay lại</a></li>
+          <li><a href="/Web-Perfume/fontend/home.php"><i class="ri-arrow-right-s-fill"></i> Quay lại</a></li>
          
         </ul>
       </li>

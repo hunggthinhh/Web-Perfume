@@ -8,10 +8,10 @@
       <div class="admin-content">
         <?php include 'parts/content-top.php'; ?>
         <div class="admin-content-main">
-          <div class="layout-gray">
+     
             <h1>Thêm sản phẩm</h1>
             <?php include 'product/add.php'; ?>
-          </div>
+      
         </div>
       </div>
     </div>
