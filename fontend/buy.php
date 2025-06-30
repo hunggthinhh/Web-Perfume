@@ -33,6 +33,8 @@ body {
       <div class="row-flex row-flex-product-detai">
         <p>Trang Chủ</p>
         <i class="ri-arrow-right-s-line"></i>
+        <p>Giỏ hàng</p>
+        <i class="ri-arrow-right-s-line"></i>
         <p>Thông Tin</p>
       </div>
 
