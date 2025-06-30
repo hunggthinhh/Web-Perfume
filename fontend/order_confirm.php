@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="asset/css/style.css">
+  <title>Ben Perfume</title>
+</head>
+<body>
+  <?php include 'parts/header.php'; ?>
+
+  <section class="cart-section p-to-top">
+    <div class="container">
+      <!-- Breadcrumb -->
+      <div class="row-flex row-flex-product-detai">
+        <p>Trang Chủ</p>
+        <i class="ri-arrow-right-s-line"></i>
+        <p>Thông Tin</p>
+      </div>
+      <!-- Phần nội dung chính -->
+      <div class="layout-compact">
+        <div class="product-detail-content">
+          <p class="content">
+            Xác nhận đơn hàng:
+            <span style="font-weight: bold;">Phan Hùng Thịnh</span>
+          </p>
+          <p>
+            Đơn hàng của bạn đã được gửi
+            <span style="font-weight: bold;">Thành công!</span>
+          </p>
+          <p>
+            Vui lòng kiểm tra
+            <span style="font-style: italic; font-weight: bold; color: black;">Email</span>
+            đã đăng ký để nhận và xác nhận đơn hàng.
+          </p>
+          <button class="main-btn">Tiếp Tục Mua Hàng</button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <?php include 'parts/footer.php'; ?>
+  <script src="asset/js/scrip.js"></script>
+</body>
+</html>
