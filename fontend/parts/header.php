@@ -15,6 +15,7 @@
             <li><a href="product-new.php">Sản phẩm</a></li>
             <li><a href="contact.php">Liên hệ</a></li>
           </ul>
+          
         </nav>
       </div>
       <div class="header-search">

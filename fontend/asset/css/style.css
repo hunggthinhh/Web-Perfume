@@ -360,9 +360,12 @@ header .row-flex {
 
 /* footer */
 footer {
-    margin-top: 50px;
-    padding: 50px 0 0 12px;
-    background-color: #EEEEEE ;
+  background-color: #333;  
+  color: #fff;             
+  padding: 40px 0;
+  width: 100%;
+  margin-bottom: -100px;
+  margin-top: 40px;
 }
 .footer-item p:first-child {
     font-weight: bolder;
