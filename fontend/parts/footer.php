@@ -3,8 +3,8 @@
     <div class="row grid">
       <div class="footer-item">
         <p><strong>Ben Perfume</strong></p>
-        <p>Giới thiệu</p>
-        <p>Liên hệ</p>
+        <p><a href="introduce.php">Giới thiệu</a></p>
+        <p><a href="contact.php">Liên hệ</a></p>
         <p>Địa chỉ cửa hàng</p>
       </div>
       <div class="footer-item">
