@@ -139,29 +139,7 @@ input {
     margin: 20px 0;
     margin-top: -20px;
 }
-.heading-text::after {
-    position: absolute;
-    content: "";
-    display: block;
-    width: 2px;
-    height: 50%;
-    left:0;
-    top: 50%;
-    transform: translateY(-50%);
-    background-color: var(--main-bg);
-}
-.heading-text::before {
-    position: absolute;
-    content: "";
-    display: block;
-    width: 120px;
-    height: 2PX;
-    left: 100px;
-    bottom: 0;
-    left:0;
-    background-color: black;
-    border-radius: 10px;
-}
+
 
 
 
@@ -820,6 +798,101 @@ body {
     border-radius: 10px;
   }
   
+  .brand-section {
+    max-width: 1250px;
+    margin: 0 auto;
+    padding: 40px 0;
+    background: #fff;
+  }
+  .brand-section-title {
+    font-size: 42px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 600;
+    margin-bottom: 24px;
+  }
+  .brand-section-flex {
+    display: flex;
+    gap: 24px;
+    align-items: stretch;
+  }
+  .brand-section-left {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 0;
+  }
+  .brand-section-left img {
+    width: 100%;
+    height: 100%;      /* ép ảnh cao bằng khung */
+    object-fit: cover; /* đảm bảo không méo hình */
+  }
+  .brand-section-right {
+    flex: 50%;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+  }
+  .brand-section-more {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 8px;
+  }
+  .brand-section-more a {
+    font-size: 20px;
+    color: #888;
+    text-decoration: none;
+  }
+  .brand-logos-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 cột bằng nhau */
+    gap: 0; /* bỏ khoảng cách giữa các ô */
+    border: 1px solid #eee; /* viền ngoài */
+  }
+  
+  .brand-logo-cell {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #eee; /* viền từng ô */
+    padding: 0px; /* chỉnh khoảng trống trong ô */
+  }
+  
+  .brand-logo-cell img {
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: contain;
+  }
+  
+  @media (max-width: 900px) {
+    .brand-section-flex { flex-direction: column; }
+    .brand-section-center, .brand-section-left, .brand-section-right { flex: unset; }
+    .brand-logos-grid { grid-template-columns: repeat(2,1fr);}
+  }
+
+ 
+
+  .hot-products-heading-gray {
+    padding: 32px 0 16px 0;
+    margin-bottom: 18px;
+    text-align: center;
+    max-width: 100%;
+  }
+  
+  .heading-text {
+    font-size: 30px;
+    margin: 0;
+    line-height: 1.1;
+    letter-spacing: 1px;
+  }
+
+  .heading-texts {
+    font-size: 24px;
+    padding-top: 15px;
+    font-weight: bold;
+  }
+
+
   /* Responsive: hiển thị dọc trên màn hình nhỏ */
   @media (max-width: 768px) {
     .contact-grid {
@@ -827,6 +900,7 @@ body {
     }
   }
   
+
 
   
  

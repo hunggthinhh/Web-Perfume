@@ -1,9 +1,20 @@
+<?php
+$heading = "SẢN PHẨM NỔI BẬT";
+$products = [
+  ['id'=>1, 'img'=>'asset/images/hinh1.webp','name'=>'Giorgio Armani Acqua Di Gio Pour Homme','price'=>'1,680,000'],
+  ['id'=>2, 'img'=>'asset/images/hinh2.webp','name'=>'Giorgio Armani Acqua Di Gio Pour Homme','price'=>'1,680,000'],
+  ['id'=>3, 'img'=>'asset/images/hinh3.webp','name'=>'Giorgio Armani Acqua Di Gio Pour Homme','price'=>'1,680,000'],
+  ['id'=>4, 'img'=>'asset/images/hinh4.webp','name'=>'Giorgio Armani Acqua Di Gio Pour Homme','price'=>'1,680,000'],
+  ['id'=>5, 'img'=>'asset/images/hinh5.webp','name'=>'Chanel Bleu De Chanel','price'=>'2,150,000'],
+];
+?>
 <section class="hot-products">
   <div class="container">
+    <!-- Heading nằm ngoài layout-gray -->
+    <div class="hot-products-heading-gray">
+      <p class="heading-text"><?php echo $heading ?? "Sản Phẩm"; ?></p>
+    </div>
     <div class="layout-gray">
-      <div class="row-grid">
-        <p class="heading-text"><?php echo $heading ?? "Sản Phẩm"; ?></p>
-      </div>
       <div class="row-grid-hot-products">
         <?php foreach (($products ?? []) as $product) { ?>
           <div class="hot-product-item">
